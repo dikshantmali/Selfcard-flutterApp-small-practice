@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.black38,
         body: Container(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -25,14 +25,14 @@ class MyApp extends StatelessWidget {
                   fontSize: 60.0,
                   fontWeight: FontWeight.bold,
                   letterSpacing: 2.0,
-                  color: Colors.white,
+                  color: Colors.lightBlue,
                 ),
               ),
               Text(
                 'Flutter Developer',
                 style: TextStyle(
                   fontSize: 20.0,
-                  color: Colors.white,
+                  color: Colors.lightBlue,
                   fontWeight: FontWeight.bold,
                   letterSpacing: 2.0,
                 ),
